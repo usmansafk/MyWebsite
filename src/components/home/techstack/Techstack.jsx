@@ -1,12 +1,13 @@
 import React from 'react'
-import 'TechStackStyle.scss'
+import '../techstack/TechstackStyle.scss'
+
 
 const Techstack = () => {
     return (
-        <div className='techstack'>
-            
+        <div className='techstack' id='techstack'>
+
         </div>
     )
 }
 
-export default Techstack
+export default Techstack;

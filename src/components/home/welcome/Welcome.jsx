@@ -3,10 +3,9 @@ import '../welcome/WelcomeStyle.scss'
 
 const Welcome = () => {
     return (
-        <div className='welcome'>
-            
+        <div className='welcome' id='welcome'>
         </div>
     )
 }
 
-export default Welcome
+export default Welcome;

@@ -1,10 +1,10 @@
 import React from 'react'
-import 'PortfolioStyle.scss'
+import '../portfolio/PortfolioStyle.scss'
 
 const Portfolio = () => {
     return (
-        <div className='portfolio'>
-            
+        <div className='portfolio' id='portfolio'>
+
         </div>
     )
 }
