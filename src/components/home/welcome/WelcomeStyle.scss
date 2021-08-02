@@ -32,9 +32,9 @@
       font-weight: 100;
     }
 
-    .span {
+    span {
       color: $mainColour;
-      font-weight: 200;
+      // font-weight: 400;
     }
 
     a {
@@ -53,6 +53,19 @@
         100% {
           opacity: 10%;
         }
+      }
+    }
+
+    .ityped-cursor {
+      animation: blink 2s infinite;
+    }
+
+    @keyframes blink {
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
       }
     }
   }
