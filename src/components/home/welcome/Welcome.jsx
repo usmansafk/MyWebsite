@@ -8,7 +8,14 @@ const Welcome = () => {
   useEffect(() => {
     init(textRef.current, {
       showCursor: true,
-      strings: ["Software Engineer", "Web Developer", "Photographer"]
+      backDelay: 1000,
+      backSpeed: 60,
+      strings: [
+        "Software Engineer",
+        "Full Stack Developer",
+        "Java Developer",
+        "Photographer"
+      ]
     });
   }, []);
 
