@@ -1,8 +1,8 @@
 @import "../../../global.scss";
 
 .welcome {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   position: relative;
   display: flex;
 
@@ -45,8 +45,8 @@
 
       img {
         left: 10%;
-        width: 60px;
-        height: 100px;
+        width: 40px;
+        height: 40px;
         animation: arrowBlink 3s infinite;
       }
 
@@ -73,13 +73,13 @@
 
   .right {
     flex: 0.5;
+    overflow: hidden;
     position: relative;
 
     .imgContainer {
       width: 900px;
       height: 900px;
       background-color: crimson;
-
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
