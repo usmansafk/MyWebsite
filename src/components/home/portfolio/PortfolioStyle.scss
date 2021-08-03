@@ -74,9 +74,9 @@
       }
 
       &:hover {
-        background-color: $mainColour;
+        background-color: black;
         img {
-          opacity: 50%;
+          opacity: 40%;
           z-index: 0;
         }
       }
