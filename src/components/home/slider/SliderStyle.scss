@@ -1,0 +1,214 @@
+.works {
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .arrow {
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+
+    &.left {
+      left: 100px;
+      transform: rotateY(180deg);
+    }
+
+    &.right {
+      right: 100px;
+    }
+  }
+
+  .slider {
+    height: 500px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item {
+        width: 900px;
+        height: 100%;
+        background-color: white;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 1%;
+
+        .left {
+          flex: 4;
+          height: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .leftContainer {
+            width: 90%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+
+            .imgContainer {
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              background-color: rgb(245, 179, 155);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              img {
+                width: 30px;
+              }
+            }
+            h2 {
+              padding-top: 5%;
+              font-size: 40px;
+              font-weight: 500;
+            }
+            p {
+              padding-bottom: 5%;
+              word-spacing: 2px;
+              font-size: 17px;
+            }
+
+            a {
+              .github-icon {
+                color: black;
+              }
+              .github-icon:hover {
+                color: crimson;
+              }
+            }
+          }
+        }
+        .right {
+          flex: 8;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+          // background: linear-gradient(
+          //   90deg,
+          //   rgba(255, 0, 0, 1) 0%,
+          //   rgba(104, 0, 112, 1) 100%
+          // );
+          background-color: black;
+
+          img {
+            height: 90%;
+            width: 90%;
+            border-radius: 40px;
+            // width: 400px;
+
+            // transform: rotate(-5deg);
+          }
+        }
+      }
+    }
+  }
+}
+
+// .works {
+//   background-color: crimson;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+
+//   .slider {
+//     height: 500px;
+//     display: flex;
+//     position: absolute;
+//     left: 0;
+
+//     .container {
+//       width: 100vw;
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+
+//       .item {
+//         background-color: white;
+//         width: 900px;
+//         height: 100%;
+//         border-radius: 40px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         padding-left: 1%;
+
+//         .left {
+//           flex: 5;
+//           height: 80%;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+
+//           .leftContainer {
+//             overflow: hidden;
+
+//             .imgContainer {
+//               width: 50px;
+//               height: 50px;
+//               border-radius: 50%;
+//               background-color: rgb(245, 179, 155);
+//               display: flex;
+//               align-items: center;
+//               justify-content: center;
+
+//               img {
+//                 width: 30px;
+//               }
+//             }
+
+//             h1 {
+//               padding-top: 5%;
+//               font-size: 40px;
+//               font-weight: 500;
+//             }
+
+//             p {
+//               padding-bottom: 5%;
+//               word-spacing: 2px;
+//               font-size: 17px;
+//             }
+
+//             span {
+//               padding-top: 5%;
+//               padding-bottom: 5%;
+//               font-size: 17px;
+//               text-decoration: underline;
+//               cursor: pointer;
+//             }
+//           }
+//         }
+//         .right {
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+//           flex: 8;
+//           height: 100%;
+//           // background-color: #131313;
+//           overflow: hidden;
+
+//           img {
+//             height: 100%;
+//             width: 100%;
+//             // transform: rotate(10deg);
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
