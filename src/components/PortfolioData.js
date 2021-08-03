@@ -2,7 +2,7 @@ export const featuredPortfolio = [
     {
         id: 1,
         title: "Anime Watch List",
-        img:"resources/AWL-LOGO.png",
+        img:"resources/AWL-LOGO2.png",
         link: "https://github.com/usmansafk/Anime-Watch-List"
     },
     {
@@ -18,7 +18,7 @@ export const webPortfolio = [
     {
         id: 1,
         title: "Anime Watch List",
-        img:"resources/AWL-LOGO.png",
+        img:"resources/AWL-LOGO3.png",
         link: "https://github.com/usmansafk/Anime-Watch-List"
     },
     {
