@@ -9,6 +9,7 @@ import TechStack from "./components/home/techstack/Techstack";
 import Portfolio from "./components/home/portfolio/Portfolio";
 import Contact from "./components/home/contact/Contact";
 import Menu from "./components/menu/Menu";
+import Slider from "./components/home/slider/Slider";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,6 +22,7 @@ function App() {
         <AboutMe />
         <TechStack />
         <Portfolio />
+        <Slider />
         <Contact />
       </div>
     </div>
