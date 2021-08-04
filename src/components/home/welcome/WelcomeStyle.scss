@@ -6,6 +6,11 @@
   position: relative;
   display: flex;
 
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .left {
     flex: 0.5;
     position: relative;
