@@ -12,12 +12,22 @@ const Contact = () => {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <h2>Contact</h2>
-
+        <br />
+        <br />
+        <br />
+        <h2>Drop me a message</h2>
+        <br />
+        <br />
         <form onSubmit={handleSubmit}>
-          <input type="text" placeholder="Your Name" />
-          <input type="text" placeholder="Email" />
-          <textarea placeholder="Message"></textarea>
+          <h3>Full Name</h3>
+          <input type="text" placeholder="What is your full name?" />
+          <br />
+          <h3>Email address</h3>
+          <input type="text" placeholder="you@example.com" />
+          <br />
+          <h3>Message</h3>
+          <textarea placeholder="Write your message here"></textarea>
+          <br />
           <button type="submit">Send</button>
           {message && <span>Thanks, I'll reply ASAP :)</span>}
         </form>
