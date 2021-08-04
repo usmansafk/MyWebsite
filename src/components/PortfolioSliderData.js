@@ -27,6 +27,15 @@ export const SliderData = [
         image: "./resources/QA-Cine1.png",
         bgColour: "#131313"
     },
+    {
+        id: 4,
+        logo: "./resources/web-site.png",
+        title: "QA Cinemas II",
+        text:"Lorem ipsum dolor sit amet consectetur adipisicing elt.Doloremque debitis veritatis animi tenetur, nemo labor!",
+        link: "https://github.com/usmansafk/qa-cinemas",
+        image: "./resources/QA-Cine2.png",
+        bgColour: "#131313"
+    },
 
 
 ]
