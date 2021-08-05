@@ -1,9 +1,10 @@
 .works {
-  background-color: crimson;
+  background-color: #94093f;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  color: #d8cac5;
 
   .arrow {
     height: 50px;
@@ -36,7 +37,7 @@
       .item {
         width: 900px;
         height: 100%;
-        background-color: white;
+        background-color: #20242a;
         border-radius: 40px;
         display: flex;
         align-items: center;
@@ -84,7 +85,7 @@
 
             a {
               .github-icon {
-                color: black;
+                color: rgb(150, 150, 150);
               }
               .github-icon:hover {
                 color: crimson;
@@ -104,7 +105,7 @@
           //   rgba(255, 0, 0, 1) 0%,
           //   rgba(104, 0, 112, 1) 100%
           // );
-          background-color: black;
+          background-color: #0c2132;
 
           img {
             height: 90%;

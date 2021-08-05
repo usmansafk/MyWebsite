@@ -7,9 +7,14 @@
   flex-direction: column;
   align-items: center;
 
-  h1 {
+  h2 {
     margin-top: 30px;
-    font-size: 50px;
+    font-size: 40px;
+    span {
+      color: #f37a3d;
+      font-family: "Source Code Pro", monospace;
+      font-size: 30px;
+    }
 
     @include mobile {
       font-size: 20px;
