@@ -21,27 +21,19 @@ const Welcome = () => {
 
   return (
     <div className="welcome" id="welcome">
-      <div className="left">
-        <div className="wrap">
-          <h2>Hello, I'm</h2>
-          <h1>Usman Sajid</h1>
-          <h3>
-            and I'm a <span ref={textRef}></span>
-          </h3>
-          <a href="#aboutme">
-            <img src="resources/down-arrow.svg" alt="down arrow" />
-          </a>
-        </div>
-      </div>
-
-      <div className="right">
-        <div className="imgContainer">
+      <div className="intro">
+        <h4>Hello, my name is</h4>
+        <h1>Usman Sajid</h1>
+        <h2>
+          and I'm a <span ref={textRef}></span>
+        </h2>
+        <a href="#aboutme">
           <img
-            className="me"
-            src="resources/UsmanSajid.png"
-            alt="Usman Sajid"
+            className="arrow"
+            src="resources/down-arrow.svg"
+            alt="down arrow"
           />
-        </div>
+        </a>
       </div>
     </div>
   );
