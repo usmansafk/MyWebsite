@@ -1,3 +1,76 @@
 .aboutme {
-  background-color: rgb(41, 36, 36);
+  background-color: #0c2033;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #feeae1;
+  font-weight: 200;
+
+  .container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 1000px;
+    height: 80%;
+    // background-color: black;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1%;
+  }
+
+  .left {
+    flex: 1;
+    align-items: flex-end;
+    justify-content: center;
+
+    h2 {
+      font-size: 40px;
+      margin-bottom: 25px;
+      span {
+        color: #f37a3d;
+        font-family: "Source Code Pro", monospace;
+        font-size: 30px;
+      }
+    }
+
+    p {
+      span {
+        color: #f37a3d;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .right {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+
+    .imgContainer {
+      width: 400px;
+      height: 400px;
+      background-color: #f37a3d;
+      border-radius: 50%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      float: left;
+      overflow: hidden;
+      margin-left: 70px;
+
+      .me {
+        width: 412px;
+        height: 430px;
+        overflow: hidden;
+        position: relative;
+        // padding-left: 70;
+        opacity: 75%;
+      }
+    }
+  }
 }
