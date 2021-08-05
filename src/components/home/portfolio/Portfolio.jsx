@@ -46,7 +46,9 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio" id="portfolio">
-      <h1>Portfolio</h1>
+      <h2>
+        <span>03</span> Portfolio
+      </h2>
       <ul>
         {list.map((item) => (
           <PortfolioList
